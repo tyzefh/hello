@@ -3,8 +3,13 @@ Ceci est un petit exemple de programme à commenter pour présenter le développ
 Pour plus d'interactions, on pourra faire les quelques exercice suivants.
 
 # Exercice 1
-lancer l'application et tester dans un navigateur
-Explorer le code avec un développeur : on parlera principalement d'API et de service :) 
+Explorer le code avec un développeur, décrire un peu l'application, on parlera principalement d'API et de service :) 
+Lancer l'application et tester dans un navigateur
+
+        SET JAVA_HOME=%USERPROFILE%/hello-master/jdk1.8.0_191
+        mvnw.cmd spring-boot:run
+        
+Dans un navigateur web ouvrir la page http://localhost/hello 
 
 # Exercice 2
 Compléter le test hello_name avec les bonnes assertions
